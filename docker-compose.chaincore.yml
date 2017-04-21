@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  chaincore:
+    image: chaincore/developer:1.1.1
+    ports:
+      - "1999:1999"
+    restart: always
+    networks: 
+      - chain_default
+
+networks:
+  chain_default:
+    external: true
