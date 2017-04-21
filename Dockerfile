@@ -13,4 +13,4 @@ RUN npm install --quiet
 
 ADD . /app/
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]

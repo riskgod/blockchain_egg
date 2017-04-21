@@ -36,5 +36,9 @@ $ EGG_SERVER_ENV=prod npm start
 ## Docker
 
 ```
+$ docker network create chain_default
 $ docker build .
+$ docker-compose -f docker-compose.chaincore.yml up -d 
 ```
+
+docker-compose -f docker-compose.logging.yml up -d 
